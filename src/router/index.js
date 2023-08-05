@@ -45,7 +45,12 @@ const routes = [
       },
       {
         path: '/guest',
-        component: GuestLayout
+        component: GuestLayout,
+      },
+      {
+        path: '/meal/:id',
+        name: 'mealDetails',
+        component: MealDetails
       }
     ],
   },
